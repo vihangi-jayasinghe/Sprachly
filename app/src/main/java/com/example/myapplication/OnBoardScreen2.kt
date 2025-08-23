@@ -10,17 +10,17 @@ import androidx.lifecycle.lifecycleScope
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 
-class MainActivity : AppCompatActivity() {
+class OnBoardScreen2 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
-        setContentView(R.layout.activity_main)
+        enableEdgeToEdge()
+        setContentView(R.layout.activity_on_board_screen2)
 
         lifecycleScope.launch {
-            delay(6_000) // 50 seconds = 50,000 ms
-            val intent = Intent(this@MainActivity, OnBoardScreen1::class.java)
+            delay(2_000) // 50 seconds = 50,000 ms
+            val intent = Intent(this@OnBoardScreen2, OnBoardScreen3::class.java)
             startActivity(intent)
             finish() // close MainActivity so user can't go back
-           }
+        }
     }
 }
