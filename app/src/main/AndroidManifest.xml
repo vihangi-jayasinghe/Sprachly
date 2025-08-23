@@ -16,6 +16,9 @@
             android:name=".CreateAccount"
             android:exported="false" />
         <activity
+            android:name=".PasswwordChangeSuccess"
+            android:exported="false" />
+        <activity
             android:name=".OnBoardScreen3"
             android:exported="false" />
         <activity

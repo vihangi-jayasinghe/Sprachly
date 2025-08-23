@@ -15,4 +15,17 @@
     <string name="onBord03_txt1">Track Your Progress</string>
     <string name="onBord03_txt2">Stay motivated with goals and streaks.</string>
     <string name="onBord03_btn1">Get Started</string>
+
+    <string name="createAccount_txt1">Create an Account</string>
+    <string name="createAccount_txt2">One account. Unlimited learning.</string>
+    <string name="createAccount_txt3">Username</string>
+    <string name="createAccount_txt4">Email</string>
+    <string name="createAccount_txt5">Password</string>
+    <string name="createAccount_txt6">I hereby agree to the terms of services and privacy policy</string>
+    <string name="createAccount_txt7">Already have an account? Sign in</string>
+
+    <string name="passwordChangeSuccess_txt1">Password Changed Successfully!</string>
+    <string name="passwordChangeSuccess_txt2"> If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing.</string>
+    <string name="passwordChangeSuccess_txt3"> Sign in </string>
+
 </resources>
