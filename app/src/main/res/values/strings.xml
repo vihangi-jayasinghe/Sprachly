@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">My Application</string>
+
+    <string name="launch">Learn, Speak and Grow</string>
+
+    <string name="onBord01_txt1">Learn Anywhere</string>
+    <string name="onBord01_txt2">Access the lessons from the phone</string>
+    <string name="onBord01_btn1">Already Have An Account</string>
+    <string name="onBord01_btn2">Create An Account</string>
+
+    <string name="onBord02_txt1">Build Vocabulary Fast</string>
+    <string name="onBord02_txt2">Unlock words daily and practice with flashcards.</string>
+    <string name="onBord02_btn1">Next</string>
+
+    <string name="onBord03_txt1">Track Your Progress</string>
+    <string name="onBord03_txt2">Stay motivated with goals and streaks.</string>
+    <string name="onBord03_btn1">Get Started</string>
 </resources>
