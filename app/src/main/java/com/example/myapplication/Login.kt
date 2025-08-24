@@ -10,15 +10,15 @@ import androidx.lifecycle.lifecycleScope
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 
-class CreateAccount : AppCompatActivity() {
+class Login : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
-        setContentView(R.layout.activity_create_account)
+        enableEdgeToEdge()
+        setContentView(R.layout.activity_login)
 
         lifecycleScope.launch {
             delay(2_000) // 50 seconds = 50,000 ms
-            val intent = Intent(this@CreateAccount, CreateSuccess::class.java)
+            val intent = Intent(this@Login, ForgotPassword::class.java)
             startActivity(intent)
             finish() // close MainActivity so user can't go back
         }
