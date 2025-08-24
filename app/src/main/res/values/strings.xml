@@ -25,7 +25,7 @@
     <string name="createAccount_txt7">Already have an account? Sign in</string>
 
     <string name="createSuccess_txt1">Account Created Successfully!</string>
-    <string name="createSuccess_txt2"> If you are going to use a passage of Lorem Ipsum, you need to be sure there is not anything embarrassing.</string>
+    <string name="createSuccess_txt2"> Your account has been created successfully! You can now log in and start exploring all the features we have prepared for you. </string>
     <string name="createSuccess_txt3"> Login </string>
 
     <string name="login_txt1"> Welcome Back! </string>
@@ -37,5 +37,22 @@
 
     <string name="forgotPassword_txt1"> Forgot Password </string>
     <string name="forgotPassword_txt2"> Continue </string>
-    <string name="forgotPassword_txt3"> We sent a Verification Code to your Email </string>
+    <string name="forgotPassword_txt3"> We sent a <b>Verification Code</b> to your Email </string>
+
+    <string name="changePassword_txt1"> Change Password </string>
+    <string name="changePassword_txt2"> Your password length consists of 6-characters </string>
+    <string name="changePassword_txt3"> New Password </string>
+    <string name="changePassword_txt4"> Confirm Password </string>
+    <string name="changePassword_txt5"> Save Password </string>
+
+    <string name="enterCode_txt1"> Enter a Code </string>
+    <string name="enterCode_txt2"> We sent a verification code to your email someone@gmail.comc</string>
+    <string name="enterCode_txt3"> 4</string>
+    <string name="enterCode_txt4"> 5</string>
+    <string name="enterCode_txt5"> 0</string>
+    <string name="enterCode_txt6"> 0</string>
+    <string name="enterCode_txt7"> Resend Code</string>
+
+    <string name="passwordChanged_txt1"> Password Changed Successfully!</string>
+    <string name="passwordChanged_txt2"> Your password has been updated successfully. Use your new password the next time you log in. </string>
 </resources>

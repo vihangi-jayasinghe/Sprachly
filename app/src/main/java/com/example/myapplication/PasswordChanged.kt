@@ -10,15 +10,15 @@ import androidx.lifecycle.lifecycleScope
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 
-class ChangePassword : AppCompatActivity() {
+class PasswordChanged : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        setContentView(R.layout.activity_change_password)
+        setContentView(R.layout.activity_password_changed)
 
         lifecycleScope.launch {
             delay(2_000) // 50 seconds = 50,000 ms
-            val intent = Intent(this@ChangePassword, EnterCode::class.java)
+            val intent = Intent(this@PasswordChanged, Home::class.java)
             startActivity(intent)
             finish() // close MainActivity so user can't go back
         }
