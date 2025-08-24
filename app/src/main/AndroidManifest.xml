@@ -16,6 +16,9 @@
             android:name=".Home"
             android:exported="false" />
         <activity
+            android:name=".Profile"
+            android:exported="false" />
+        <activity
             android:name=".PasswordChanged"
             android:exported="false" />
         <activity

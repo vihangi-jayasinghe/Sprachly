@@ -55,4 +55,10 @@
 
     <string name="passwordChanged_txt1"> Password Changed Successfully!</string>
     <string name="passwordChanged_txt2"> Your password has been updated successfully. Use your new password the next time you log in. </string>
+
+    <string name="profile_txt1"> Profile </string>
+    <string name="profile_txt2"> Personal Information </string>
+    <string name="profile_txt3"> Achievements </string>
+    <string name="profile_txt4"> Settings </string>
+    <string name="profile_txt5"> Beginner </string>
 </resources>
