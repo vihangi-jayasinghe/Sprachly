@@ -17,7 +17,7 @@
         app:layout_constraintHorizontal_bias="0.476"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/onbordscreen2" />
+        app:srcCompat="@drawable/onboard2" />
 
     <TextView
         android:id="@+id/textView4"

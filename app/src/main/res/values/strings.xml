@@ -61,4 +61,41 @@
     <string name="profile_txt3"> Achievements </string>
     <string name="profile_txt4"> Settings </string>
     <string name="profile_txt5"> Beginner </string>
+
+    <string name="nav_txt1"> Home </string>
+    <string name="nav_txt2"> Leaderboard </string>
+    <string name="nav_txt3"> Challenges </string>
+    <string name="nav_txt4"> Wishlist </string>
+    <string name="nav_txt5"> Profile </string>
+
+    <string name="home_txt1"> Home </string>
+    <string name="home_txt2"> Welcome Back, Mary </string>
+    <string name="home_txt3"> Grammar </string>
+    <string name="home_txt4"> Vocabulary </string>
+    <string name="home_txt5"> Listening </string>
+    <string name="home_txt6"> Flashcards </string>
+
+    <string name="leaderboard_txt1"> Weekly </string>
+    <string name="leaderboard_txt2"> Monthly </string>
+    <string name="leaderboard_txt3"> All Time </string>
+
+
+    <string name="challenges_txt1"> Challenges </string>
+
+
+    <string name="wishlist_txt1"> Wishlist </string>
+    <string name="wishlist_txt2"> Spanish full lesson </string>
+    <string name="wishlist_txt3"> 50 lessons </string>
+    <string name="wishlist_txt4"> 10h 40min </string>
+    <string name="wishlist_txt5"> $100 </string>
+    <string name="wishlist_txt6"> Pay Now </string>
+    <string name="wishlist_txt7"> French full lesson </string>
+    <string name="wishlist_txt8"> $150 </string>
+    <string name="wishlist_txt9"> Japanese full lesson </string>
+    <string name="wishlist_txt10"> $130 </string>
+    <string name="wishlist_txt11"> Chinese full lesson </string>
+    <string name="wishlist_txt12"> $120 </string>
+    <string name="wishlist_txt13"> Korean full lesson </string>
+    <string name="wishlist_txt14"> $110 </string>
+
 </resources>

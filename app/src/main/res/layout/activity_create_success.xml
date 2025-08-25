@@ -16,7 +16,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/createsuccess1" />
+        app:srcCompat="@drawable/accountcreated1" />
 
     <TextView
         android:id="@+id/textView9"

@@ -45,7 +45,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/rounded_textinput"
+            android:background="@drawable/rounded__textinput"
             android:hint="@string/createAccount_txt3"
             android:textSize="10sp" />
     </com.google.android.material.textfield.TextInputLayout>
@@ -97,7 +97,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/rounded_textinput"
+            android:background="@drawable/rounded__textinput"
             android:hint="@string/createAccount_txt5"
             android:textSize="10sp" />
     </com.google.android.material.textfield.TextInputLayout>

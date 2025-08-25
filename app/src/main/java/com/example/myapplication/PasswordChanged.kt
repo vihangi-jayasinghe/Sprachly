@@ -18,7 +18,7 @@ class PasswordChanged : AppCompatActivity() {
 
         lifecycleScope.launch {
             delay(2_000) // 50 seconds = 50,000 ms
-            val intent = Intent(this@PasswordChanged, Home::class.java)
+            val intent = Intent(this@PasswordChanged, Profile::class.java)
             startActivity(intent)
             finish() // close MainActivity so user can't go back
         }

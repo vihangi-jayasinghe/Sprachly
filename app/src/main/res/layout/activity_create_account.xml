@@ -65,7 +65,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/rounded_textinput"
+            android:background="@drawable/rounded__textinput"
             android:hint="@string/createAccount_txt3"
             android:textSize="16sp" />
     </com.google.android.material.textfield.TextInputLayout>
@@ -83,7 +83,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/rounded_textinput"
+            android:background="@drawable/rounded__textinput"
             android:hint="@string/createAccount_txt4"
             android:textSize="16sp" />
     </com.google.android.material.textfield.TextInputLayout>
@@ -102,18 +102,18 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/rounded_textinput"
+            android:background="@drawable/rounded__textinput"
             android:hint="@string/createAccount_txt5"
             android:textSize="16sp" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <ImageView
         android:id="@+id/imageView8"
-        android:layout_width="47dp"
-        android:layout_height="52dp"
-        android:layout_marginTop="16dp"
+        android:layout_width="41dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="20dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintHorizontal_bias="0.095"
         app:layout_constraintStart_toEndOf="@+id/textInputLayout3"
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout2"
         app:srcCompat="@drawable/createaccount5" />

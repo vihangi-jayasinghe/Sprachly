@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    tools:context=".Leaderboard">
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="61dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="33dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/nav2" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="69dp"
+        android:text="@string/nav_txt2"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView29"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="624dp"
+        android:backgroundTint="@color/white"
+        android:text="@string/leaderboard_txt1"
+        android:textColor="@color/btn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView29" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="624dp"
+        android:backgroundTint="@color/btn1"
+        android:text="@string/leaderboard_txt2"
+        android:textColor="@color/btn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button13"
+        app:layout_constraintTop_toBottomOf="@+id/textView32" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="624dp"
+        android:backgroundTint="@color/btn1"
+        android:text="@string/leaderboard_txt3"
+        android:textColor="@color/btn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button14"
+        app:layout_constraintTop_toBottomOf="@+id/textView32" />
+
+    <ImageView
+        android:id="@+id/imageView30"
+        android:layout_width="336dp"
+        android:layout_height="344dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="29dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button13"
+        app:srcCompat="@drawable/leaderboard1" />
+
+    <ImageView
+        android:id="@+id/imageView31"
+        android:layout_width="352dp"
+        android:layout_height="167dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView30"
+        app:srcCompat="@drawable/leaderboard2" />
+
+    <include layout="@layout/activity_bottom_navigation_view"></include>
+</androidx.constraintlayout.widget.ConstraintLayout>

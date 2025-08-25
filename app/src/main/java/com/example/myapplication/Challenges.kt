@@ -10,15 +10,15 @@ import androidx.lifecycle.lifecycleScope
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 
-class Home : AppCompatActivity() {
+class Challenges : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        setContentView(R.layout.activity_home)
+        setContentView(R.layout.activity_challenges)
 
         lifecycleScope.launch {
             delay(2_000) // 50 seconds = 50,000 ms
-            val intent = Intent(this@Home, Leaderboard::class.java)
+            val intent = Intent(this@Challenges, Wishlist::class.java)
             startActivity(intent)
             finish() // close MainActivity so user can't go back
         }

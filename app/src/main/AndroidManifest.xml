@@ -13,6 +13,18 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
+            android:name=".Wishlist"
+            android:exported="false" />
+        <activity
+            android:name=".Challenges"
+            android:exported="false" />
+        <activity
+            android:name=".Leaderboard"
+            android:exported="false" />
+        <activity
+            android:name=".BottomNavigationView"
+            android:exported="false" />
+        <activity
             android:name=".Home"
             android:exported="false" />
         <activity

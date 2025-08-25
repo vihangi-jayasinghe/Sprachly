@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        setContentView(R.layout.activity_profile)
+        setContentView(R.layout.activity_main)
 
         lifecycleScope.launch {
             delay(6_000) // 50 seconds = 50,000 ms
