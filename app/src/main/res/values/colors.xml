@@ -3,7 +3,21 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="purple">#795CD1</color>
-    <color name="blue">#5D63D1</color>
+    <color name="blue">#795CD1</color>
     <color name="btn">#5E469D</color>
     <color name="btn1">#C7BBFF</color>
+    <color name="purple_500">#6200EE</color>
+    <color name="light_pink">#E09AB2</color>
+
+<!--    <color name="green_500">#4CAF50</color>-->
+<!--    <color name="blue_500">#2196F3</color>-->
+<!--    <color name="gray_200">#EEEEEE</color>-->
+<!--    <color name="gray_600">#757575</color>-->
+
+    <color name="green_500">#22C55E</color>
+    <color name="blue_600">#2563EB</color>
+    <color name="blue_300">#93C5FD</color>
+    <color name="gray_100">#F3F4F6</color>
+    <color name="gray_600">#6B7280</color>
+    <color name="surface_variant">#EFF6FF</color>
 </resources>

@@ -2,6 +2,7 @@ package com.example.myapplication
 
 import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -16,11 +17,11 @@ class OnBoardScreen1 : AppCompatActivity() {
 
         setContentView(R.layout.activity_on_board_screen1)
 
-        lifecycleScope.launch {
-            delay(2_000) // 50 seconds = 50,000 ms
-            val intent = Intent(this@OnBoardScreen1, OnBoardScreen2::class.java)
+        val nextButton = findViewById<Button>(R.id.onBordBtn2)
+
+        nextButton.setOnClickListener {
+            val intent = Intent(this, OnBoardScreen2::class.java)
             startActivity(intent)
-            finish() // close MainActivity so user can't go back
         }
 
 

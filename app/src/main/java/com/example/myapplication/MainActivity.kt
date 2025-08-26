@@ -14,13 +14,13 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_listening4)
 
-        lifecycleScope.launch {
-            delay(6_000) // 50 seconds = 50,000 ms
-            val intent = Intent(this@MainActivity, OnBoardScreen1::class.java)
-            startActivity(intent)
-            finish() // close MainActivity so user can't go back
-           }
+//        lifecycleScope.launch {
+//            delay(6_000) // 50 seconds = 50,000 ms
+//            val intent = Intent(this@MainActivity, OnBoardScreen1::class.java)
+//            startActivity(intent)
+//            finish() // close MainActivity so user can't go back
+//           }
     }
 }

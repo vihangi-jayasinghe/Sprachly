@@ -18,7 +18,7 @@ class Wishlist : AppCompatActivity() {
 
         lifecycleScope.launch {
             delay(2_000) // 50 seconds = 50,000 ms
-            val intent = Intent(this@Wishlist, Wishlist::class.java)
+            val intent = Intent(this@Wishlist, OnBoardScreen4::class.java)
             startActivity(intent)
             finish() // close MainActivity so user can't go back
         }

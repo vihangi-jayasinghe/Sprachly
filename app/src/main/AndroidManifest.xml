@@ -13,6 +13,33 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
+            android:name=".Listening4"
+            android:exported="false" />
+        <activity
+            android:name=".Listening3"
+            android:exported="false" />
+        <activity
+            android:name=".Listening2"
+            android:exported="false" />
+        <activity
+            android:name=".Listening1"
+            android:exported="false" />
+        <activity
+            android:name=".Vocabulary2"
+            android:exported="false" />
+        <activity
+            android:name=".Vocabulary1"
+            android:exported="false" />
+        <activity
+            android:name=".Grammar1"
+            android:exported="false" />
+        <activity
+            android:name=".Grammar2"
+            android:exported="false" />
+        <activity
+            android:name=".OnBoardScreen4"
+            android:exported="false" />
+        <activity
             android:name=".Wishlist"
             android:exported="false" />
         <activity

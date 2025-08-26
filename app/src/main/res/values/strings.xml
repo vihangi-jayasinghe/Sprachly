@@ -74,6 +74,7 @@
     <string name="home_txt4"> Vocabulary </string>
     <string name="home_txt5"> Listening </string>
     <string name="home_txt6"> Flashcards </string>
+    <string name="home_txt7"> Flashcards </string>
 
     <string name="leaderboard_txt1"> Weekly </string>
     <string name="leaderboard_txt2"> Monthly </string>
@@ -98,4 +99,80 @@
     <string name="wishlist_txt13"> Korean full lesson </string>
     <string name="wishlist_txt14"> $110 </string>
 
+
+    <string name="onboard4_txt1">Few more steps to complete Profile</string>
+    <string name="onboard4_txt2">Mother Tongue</string>
+    <string name="onboard4_txt3">Languages to Learn</string>
+
+    <!-- Mother Tongue Options -->
+    <string-array name="mother_tongues">
+        <item>English</item>
+        <item>German</item>
+        <item>Tamil</item>
+        <item>Hindi</item>
+        <item>Spanish</item>
+        <item>French</item>
+    </string-array>
+
+    <!-- Languages to Learn -->
+    <string-array name="languages_to_learn">
+        <item>English</item>
+        <item>Italian</item>
+        <item>Tamil</item>
+        <item>Hindi</item>
+        <item>Spanish</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Japanese</item>
+        <item>Korean</item>
+    </string-array>
+
+    <string name="grammar1_txt1">Grammar</string>
+    <string name="grammar1_txt2">Articles</string>
+    <string name="grammar1_txt3">Nouns and Gender</string>
+    <string name="grammar1_txt4">Verb Conjugation</string>
+    <string name="grammar1_txt5">Pronouns</string>
+    <string name="grammar1_txt6">Plural Forms</string>
+    <string name="grammar1_txt7">Simple Sentence Structure</string>
+
+    <string name="grammar2_txt1">Articles</string>
+    <string name="grammar2_txt2">In German, nouns have gender. They are:</string>
+    <string name="grammar2_txt3">Der</string>
+    <string name="grammar2_txt4">Die</string>
+    <string name="grammar2_txt5">Das</string>
+    <string name="grammar2_txt6">Explanation</string>
+    <string name="grammar2_txt7">Examples</string>
+    <string name="grammar2_txt8">Completed</string>
+
+    <string name="vocabulary1_txt1">Vocabulary</string>
+    <string name="vocabulary1_txt2">Basics</string>
+    <string name="vocabulary1_txt3">Numbers</string>
+    <string name="vocabulary1_txt4">Colors</string>
+    <string name="vocabulary1_txt5">Food</string>
+    <string name="vocabulary1_txt6">Animal</string>
+    <string name="vocabulary1_txt7">Days of the week</string>
+
+    <string name="listening1_txt1">Listening</string>
+    <string name="listening1_txt2">Basic Greetings</string>
+    <string name="listening1_txt3">Numbers 1-20</string>
+    <string name="listening1_txt4">Family Members</string>
+    <string name="listening1_txt5">Common Colors</string>
+    <string name="listening1_txt6">Days of Week</string>
+    <string name="listening1_txt7">20 words</string>
+    <string name="listening1_txt8">15 points</string>
+
+    <string name="listening2_txt1">Start Listening</string>
+
+    <string name="listening3_txt1">Type what you hear</string>
+    <string name="listening3_txt2">Type in German</string>
+    <string name="listening3_txt3">Good Morning</string>
+    <string name="listening3_txt4">Audio Content</string>
+    <string name="listening3_txt5">Your Answer</string>
+    <string name="listening3_txt6">Check Answer</string>
+
+    <string name="listening4_txt1">Correct!</string>
+    <string name="listening4_txt2">You typed:</string>
+    <string name="listening4_txt3">Guten Morgen</string>
+    <string name="listening4_txt4">Continue</string>
+    <string name="listening4_txt5">German • 5/10 completed</string>
 </resources>
