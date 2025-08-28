@@ -8,11 +8,8 @@
     <color name="btn1">#C7BBFF</color>
     <color name="purple_500">#6200EE</color>
     <color name="light_pink">#E09AB2</color>
-
-<!--    <color name="green_500">#4CAF50</color>-->
-<!--    <color name="blue_500">#2196F3</color>-->
-<!--    <color name="gray_200">#EEEEEE</color>-->
-<!--    <color name="gray_600">#757575</color>-->
+    <color name="dark_purple">#D2CBF2</color>
+    <color name="ash">#C6C6CD</color>
 
     <color name="green_500">#22C55E</color>
     <color name="blue_600">#2563EB</color>
@@ -20,4 +17,10 @@
     <color name="gray_100">#F3F4F6</color>
     <color name="gray_600">#6B7280</color>
     <color name="surface_variant">#EFF6FF</color>
+
+    <color name="background">#FAFAFA</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="accent">#6200EE</color>
+
 </resources>

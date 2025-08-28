@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/blue"
+    android:background="@drawable/createaccbackground"
     tools:context=".EnterCode">
 
     <ImageView
@@ -62,7 +62,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/rounded__textinput" />
+            android:background="@drawable/rounded_textinput" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -81,7 +81,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/rounded__textinput"
+            android:background="@drawable/rounded_textinput"
             android:hint="@string/enterCode_txt4" />
 
     </com.google.android.material.textfield.TextInputLayout>
@@ -102,7 +102,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/rounded__textinput" />
+            android:background="@drawable/rounded_textinput" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -121,7 +121,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/rounded__textinput" />
+            android:background="@drawable/rounded_textinput" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button

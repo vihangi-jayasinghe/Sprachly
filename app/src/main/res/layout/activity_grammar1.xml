@@ -4,9 +4,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#E8E3F0"
-    android:padding="20dp">
+    android:padding="20dp"
+    android:id="@+id/main">
 
     <!-- Title (CENTERED) -->
+    <ImageView
+        android:id="@+id/imageView37"
+        android:layout_width="34dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="?attr/homeAsUpIndicator" />
+
     <TextView
         android:id="@+id/titleText"
         android:layout_width="0dp"
@@ -26,7 +37,7 @@
     <ProgressBar
         android:id="@+id/progressBar"
         style="?android:attr/progressBarStyleHorizontal"
-        android:layout_width="0dp"
+        android:layout_width="300dp"
         android:layout_height="24dp"
         android:layout_marginTop="24dp"
         android:layout_marginBottom="24dp"
@@ -43,18 +54,19 @@
         android:id="@+id/scrollMenu"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="60dp"
         android:fillViewport="true"
-        app:layout_constraintTop_toBottomOf="@id/progressBar"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="30dp">
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/progressBar">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:gravity="center_horizontal">
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
 
             <!-- MENU ITEM 1: Articles (with checkmark) -->
             <com.google.android.material.card.MaterialCardView
@@ -73,24 +85,25 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="64dp"
-                    android:orientation="horizontal"
                     android:gravity="center_vertical"
+                    android:orientation="horizontal"
                     android:paddingStart="16dp"
                     android:paddingEnd="16dp">
 
                     <TextView
+                        android:id="@+id/aricle"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:fontFamily="sans-serif-medium"
                         android:text="@string/grammar1_txt2"
-                        android:textSize="18sp"
                         android:textColor="#000000"
-                        android:fontFamily="sans-serif-medium" />
+                        android:textSize="18sp" />
 
                     <ImageView
                         android:layout_width="20dp"
                         android:layout_height="20dp"
-                        android:src="@drawable/checkmark_icon" />
+                        android:src="@drawable/arrow_right" />
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
 
@@ -111,8 +124,8 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="64dp"
-                    android:orientation="horizontal"
                     android:gravity="center_vertical"
+                    android:orientation="horizontal"
                     android:paddingStart="16dp"
                     android:paddingEnd="16dp">
 
@@ -120,15 +133,15 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:fontFamily="sans-serif-medium"
                         android:text="@string/grammar1_txt3"
-                        android:textSize="18sp"
                         android:textColor="#000000"
-                        android:fontFamily="sans-serif-medium" />
+                        android:textSize="18sp" />
 
                     <ImageView
                         android:layout_width="20dp"
                         android:layout_height="20dp"
-                        android:src="@drawable/arrow_right" />
+                        android:src="@drawable/checkmark_icon" />
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
 
@@ -149,8 +162,8 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="64dp"
-                    android:orientation="horizontal"
                     android:gravity="center_vertical"
+                    android:orientation="horizontal"
                     android:paddingStart="16dp"
                     android:paddingEnd="16dp">
 
@@ -158,10 +171,10 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:fontFamily="sans-serif-medium"
                         android:text="@string/grammar1_txt4"
-                        android:textSize="18sp"
                         android:textColor="#000000"
-                        android:fontFamily="sans-serif-medium" />
+                        android:textSize="18sp" />
 
                     <ImageView
                         android:layout_width="20dp"
@@ -187,8 +200,8 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="64dp"
-                    android:orientation="horizontal"
                     android:gravity="center_vertical"
+                    android:orientation="horizontal"
                     android:paddingStart="16dp"
                     android:paddingEnd="16dp">
 
@@ -196,10 +209,10 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:fontFamily="sans-serif-medium"
                         android:text="@string/grammar1_txt5"
-                        android:textSize="18sp"
                         android:textColor="#000000"
-                        android:fontFamily="sans-serif-medium" />
+                        android:textSize="18sp" />
 
                     <ImageView
                         android:layout_width="20dp"
@@ -225,8 +238,8 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="64dp"
-                    android:orientation="horizontal"
                     android:gravity="center_vertical"
+                    android:orientation="horizontal"
                     android:paddingStart="16dp"
                     android:paddingEnd="16dp">
 
@@ -234,10 +247,10 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:fontFamily="sans-serif-medium"
                         android:text="@string/grammar1_txt6"
-                        android:textSize="18sp"
                         android:textColor="#000000"
-                        android:fontFamily="sans-serif-medium" />
+                        android:textSize="18sp" />
 
                     <ImageView
                         android:layout_width="20dp"
@@ -263,8 +276,8 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="64dp"
-                    android:orientation="horizontal"
                     android:gravity="center_vertical"
+                    android:orientation="horizontal"
                     android:paddingStart="16dp"
                     android:paddingEnd="16dp">
 
@@ -272,11 +285,11 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:fontFamily="sans-serif-medium"
                         android:lineSpacingMultiplier="1.1"
                         android:text="@string/grammar1_txt7"
-                        android:textSize="18sp"
                         android:textColor="#000000"
-                        android:fontFamily="sans-serif-medium" />
+                        android:textSize="18sp" />
 
                     <ImageView
                         android:layout_width="20dp"
@@ -284,8 +297,9 @@
                         android:src="@drawable/arrow_right" />
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
-
         </LinearLayout>
+
     </androidx.core.widget.NestedScrollView>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

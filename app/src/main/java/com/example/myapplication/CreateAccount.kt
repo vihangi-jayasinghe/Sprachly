@@ -2,6 +2,7 @@ package com.example.myapplication
 
 import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -16,11 +17,11 @@ class CreateAccount : AppCompatActivity() {
 
         setContentView(R.layout.activity_create_account)
 
-        lifecycleScope.launch {
-            delay(2_000) // 50 seconds = 50,000 ms
-            val intent = Intent(this@CreateAccount, CreateSuccess::class.java)
+        val nextButton = findViewById<Button>(R.id.crateAccount1)
+
+        nextButton.setOnClickListener {
+            val intent = Intent(this, OnBoardScreen4::class.java)
             startActivity(intent)
-            finish() // close MainActivity so user can't go back
         }
     }
 }

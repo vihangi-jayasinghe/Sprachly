@@ -13,6 +13,24 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
+            android:name=".Flashcard3"
+            android:exported="false" />
+        <activity
+            android:name=".Grammar3"
+            android:exported="false" />
+        <activity
+            android:name=".Listening5"
+            android:exported="false" />
+        <activity
+            android:name=".Profile2"
+            android:exported="false" />
+        <activity
+            android:name=".Flashcard2"
+            android:exported="false" />
+        <activity
+            android:name=".Flashcard1"
+            android:exported="false" />
+        <activity
             android:name=".Listening4"
             android:exported="false" />
         <activity

@@ -16,11 +16,6 @@ class Challenges : AppCompatActivity() {
 
         setContentView(R.layout.activity_challenges)
 
-        lifecycleScope.launch {
-            delay(2_000) // 50 seconds = 50,000 ms
-            val intent = Intent(this@Challenges, Wishlist::class.java)
-            startActivity(intent)
-            finish() // close MainActivity so user can't go back
-        }
+
     }
 }

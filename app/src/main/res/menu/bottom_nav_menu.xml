@@ -9,10 +9,6 @@
         android:icon="@drawable/nav2"
         android:title="@string/nav_txt2" />
     <item
-        android:id="@+id/wishlist"
-        android:icon="@drawable/nav4"
-        android:title="@string/nav_txt4" />
-    <item
         android:id="@+id/challenges"
         android:icon="@drawable/nav3"
         android:title="@string/nav_txt3" />
