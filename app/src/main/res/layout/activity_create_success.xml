@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/createaccbackground"
+    android:background="@drawable/launchbackground"
     tools:context=".CreateSuccess">
 
     <ImageView
@@ -53,10 +53,11 @@
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
-        android:backgroundTint="@color/blue_600"
+        android:backgroundTint="@color/white"
         android:text="@string/createSuccess_txt3"
-        android:textColor="@color/background"
+        android:textColor="@color/btn"
         android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"

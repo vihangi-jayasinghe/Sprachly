@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/createaccbackground"
+    android:background="@drawable/launchbackground"
     tools:context=".Login">
 
     <ImageView
@@ -45,7 +45,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/rounded_textinput"
+            android:background="@color/surface_variant"
             android:hint="@string/createAccount_txt3"
             android:textSize="10sp" />
     </com.google.android.material.textfield.TextInputLayout>
@@ -55,9 +55,9 @@
         android:layout_width="273dp"
         android:layout_height="54dp"
         android:layout_marginTop="68dp"
-        android:backgroundTint="@color/blue_600"
+        android:backgroundTint="@color/white"
         android:text="@string/login_txt3"
-        android:textColor="@color/background"
+        android:textColor="@color/btn"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -80,7 +80,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/rounded_textinput"
+            android:background="@color/surface_variant"
             android:hint="@string/createAccount_txt5"
             android:textSize="10sp" />
     </com.google.android.material.textfield.TextInputLayout>

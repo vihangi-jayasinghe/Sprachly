@@ -24,7 +24,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="72dp"
         android:layout_marginBottom="152dp"
-        android:backgroundTint="@color/light_pink"
+        android:backgroundTint="@color/btn1"
         android:text="@string/listening2_txt1"
         android:textColor="@color/background"
         android:textSize="20sp"

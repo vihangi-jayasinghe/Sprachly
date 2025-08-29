@@ -69,7 +69,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:background="@drawable/card_background"
+                android:background="@color/btn1"
                 android:paddingHorizontal="24dp"
                 android:paddingVertical="16dp">
 

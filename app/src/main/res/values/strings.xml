@@ -5,8 +5,8 @@
 
     <string name="onBord01_txt1">Learn Anywhere</string>
     <string name="onBord01_txt2">Access the lessons from the phone</string>
-    <string name="onBord01_btn1">Already Have An Account</string>
-    <string name="onBord01_btn2">Create An Account</string>
+    <string name="onBord01_btn1">Sign in</string>
+    <string name="onBord01_btn2">Sign up</string>
 
     <string name="onBord02_txt1">Build Vocabulary Fast</string>
     <string name="onBord02_txt2">Unlock words daily and practice with flashcards.</string>
@@ -177,8 +177,8 @@
     <string name="listening4_txt5">German • 5/10 completed</string>
 
     <string name="profile_title">Profile</string>
-    <string name="sample_name">John Doe</string>
-    <string name="sample_email">john.doe@email.com</string>
+    <string name="sample_name">Mary Louise</string>
+    <string name="sample_email">mary@email.com</string>
     <string name="edit_profile">Edit Profile</string>
     <string name="logout">Logout</string>
     <string name="back">Back</string>
