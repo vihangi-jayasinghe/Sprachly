@@ -175,4 +175,11 @@
     <string name="listening4_txt3">Guten Morgen</string>
     <string name="listening4_txt4">Continue</string>
     <string name="listening4_txt5">German • 5/10 completed</string>
+
+    <string name="profile_title">Profile</string>
+    <string name="sample_name">John Doe</string>
+    <string name="sample_email">john.doe@email.com</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="logout">Logout</string>
+    <string name="back">Back</string>
 </resources>

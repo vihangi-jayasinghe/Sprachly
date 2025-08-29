@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/navigation_home"
+        android:id="@+id/homeBtn10"
         android:icon="@drawable/nav1"
         android:title="@string/nav_txt1" />
     <item
-        android:id="@+id/leaderboard"
+        android:id="@+id/productBtn10"
         android:icon="@drawable/nav2"
         android:title="@string/nav_txt2" />
     <item
-        android:id="@+id/challenges"
+        android:id="@+id/expertsBtn10"
         android:icon="@drawable/nav3"
         android:title="@string/nav_txt3" />
     <item
-        android:id="@+id/profile"
+        android:id="@+id/profileBtn10"
         android:icon="@drawable/nav5"
         android:title="@string/nav_txt5" />
 

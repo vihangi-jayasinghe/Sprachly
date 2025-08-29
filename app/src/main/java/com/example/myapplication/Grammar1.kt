@@ -22,12 +22,16 @@ class Grammar1 : AppCompatActivity() {
 
         val article: TextView = findViewById(R.id.aricle)
 
-        // Set click listener
+
         article.setOnClickListener {
-            // Navigate to HomeActivity (replace with your home screen activity class)
             val intent = Intent(this, Grammar2::class.java)
             startActivity(intent)
         }
+        val back: ImageView = findViewById(R.id.imageView37)
 
+        back.setOnClickListener {
+            val intent = Intent(this, Home::class.java)
+            startActivity(intent)
+        }
     }
 }

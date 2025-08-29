@@ -3,6 +3,7 @@ package com.example.myapplication
 import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
+import android.widget.ImageView
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -24,10 +25,15 @@ class Vocabulary1 : AppCompatActivity() {
 
         val vocabulary: MaterialCardView = findViewById(R.id.vocabulary1)
 
-        // Set click listener
         vocabulary.setOnClickListener {
-            // Navigate to HomeActivity (replace with your home screen activity class)
             val intent = Intent(this, Vocabulary2::class.java)
+            startActivity(intent)
+        }
+
+        val back: ImageView = findViewById(R.id.imageView16)
+
+        back.setOnClickListener {
+            val intent = Intent(this, Home::class.java)
             startActivity(intent)
         }
     }

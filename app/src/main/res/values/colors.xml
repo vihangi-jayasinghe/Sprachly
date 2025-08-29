@@ -23,4 +23,9 @@
     <color name="text_secondary">#757575</color>
     <color name="accent">#6200EE</color>
 
+    <color name="profileBackground">#0D1B2A</color>
+    <color name="buttonColor">#1B263B</color>
+    <color name="buttonColorSecondary">#415A77</color>
+    <color name="lightGray">#B0B0B0</color>
+
 </resources>
